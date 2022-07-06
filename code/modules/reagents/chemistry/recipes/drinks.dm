@@ -2,7 +2,7 @@
 	name = "Caipirinha"
 	id = "caipirinha"
 	result = "caipirinha"
-	required_reagents = list("cachaca" = 3, "sugar" = 1, "limejuice" = 1)
+	required_reagents = list("cachaca" = 1, "sugar" = 3, "lemonjuice" = 3)
 	result_amount = 5
 	mix_sound = 'sound/goonstation/misc/drinkfizz.ogg'
 

@@ -6,6 +6,13 @@
 	result_amount = 5
 	mix_sound = 'sound/goonstation/misc/drinkfizz.ogg'
 
+/datum/chemical_reaction/mate
+	name = "Mate"
+	id = "mate"
+	result = "mate"
+	required_reagents = list("ervamate" = 1, "water" = 2)
+	result_amount = 3
+	mix_sound = 'sound/goonstation/misc/drinkfizz.ogg'
 /datum/chemical_reaction/hot_coco
 	name = "Hot Coco"
 	id = "hot_coco"

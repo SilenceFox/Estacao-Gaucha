@@ -132,3 +132,20 @@
 /obj/item/grown/bananapeel/specialpeel/after_slip(mob/living/carbon/human/H)
 	. = ..()
 	qdel(src)
+
+/obj/item/seeds/ervamate
+	name = "pack of Erva Mate seeds"
+	desc = "Um belo chá tchê, muito bagual."
+	icon_state = "seed-ervamate"
+	species = "ervamate"
+	plantname = "Erva Mate"
+	product = /obj/item/reagent_containers/food/drinks/bottle/ervamate
+	lifespan = 55
+	endurance = 35
+	growthstages = 3
+	yield = 10
+	growing_icon = 'icons/obj/hydroponics/growing.dmi'
+	icon_grow = "ervamate-grow"
+	icon_dead = "ervamate-dead"
+	genes = list(/datum/plant_gene/trait/repeated_harvest)
+	reagents_add = list("ervamate" = 0.2, "plantmatter" = 0.02, "caffeine" = 0.1)

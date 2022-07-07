@@ -45,6 +45,17 @@
 	drink_desc = "A freezing pint of beer"
 	taste_description = "beer"
 
+/datum/reagent/consumable/ethanol/mate
+	name = "mate"
+	id = "mate"
+	description = "Um mate né tchê, mas que bahhhh, tri demais."
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	color = "#664300" // rgb: 102, 67, 0
+	alcohol_perc = 0.0
+	drink_icon ="mate"
+	drink_name = "Mate"
+	drink_desc = "Um mate né tchê, mas que barbaridade bahhhh!!"
+	taste_description = "Pampas Gauchos"
 /datum/reagent/consumable/ethanol/cachaca
 	name = "Cachaça"
 	id = "cachaca"

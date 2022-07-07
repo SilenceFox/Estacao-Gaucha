@@ -83,6 +83,15 @@
 	brute_heal = 1
 	burn_heal = 1
 
+/datum/reagent/consumable/nutriment/ervamate
+	name = "ervamate"
+	id = "ervamate"
+	description = "Erva mate em seu estado bruto, muito bagual."
+	reagent_state = LIQUID
+	color = "#664330" // rgb: 102, 67, 48
+	brute_heal = 1
+	burn_heal = 1
+
 /datum/reagent/consumable/nutriment/vitamin/on_mob_life(mob/living/M)
 	if(M.satiety < 600)
 		M.satiety += 30

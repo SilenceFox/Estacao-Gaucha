@@ -170,7 +170,11 @@
 	desc = "A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES."
 	icon_state = "whiskeybottle"
 	list_reagents = list("whiskey" = 100)
-
+/obj/item/reagent_containers/food/drinks/bottle/ervamate
+	name = "Erva Mate"
+	desc = "Um chá muito bagual, tradicional do sul tchê."
+	icon_state = "ervamate"
+	list_reagents = list("ervamate" = 100)
 /obj/item/reagent_containers/food/drinks/bottle/cachaca
 	name = "Cachaça 51"
 	desc = "Cachaça 51 é uma marca brasileira de cachaça produzida pela Companhia Müller de Bebidas desde 1951, razão da origem do nome.Uma bebida tradicional brasileira."

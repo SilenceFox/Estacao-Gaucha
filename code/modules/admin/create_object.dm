@@ -9,7 +9,7 @@ GLOBAL_LIST_INIT(create_object_forms, list(/obj, /obj/structure, /obj/machinery,
 		GLOB.create_object_html = replacetext(GLOB.create_object_html, "$ATOM$", "Object")
 		GLOB.create_object_html = replacetext(GLOB.create_object_html, "null /* object types */", "\"[objectjs]\"")
 
-	user << browse(replacetext(GLOB.create_object_html, "/* ref src */", UID()), "window=create_object;size=425x475")
+	user << browse(replacetext(GLOB.create_object_html, "/* ref src */", UID()), "window=create_object;size=750x750")
 
 /datum/admins/proc/quick_create_object(mob/user)
 	var/path = input("Select the path of the object you wish to create.", "Path", /obj) in GLOB.create_object_forms

@@ -148,7 +148,15 @@
 
 //Anything below this is where all the specific signs are. If people want to add more signs, add them below.
 
+/datum/barsign/lulalivre
+	name = "Lula Livre"
+	icon = "lulalivre"
+	desc = "Nosso companheiro foi preso injustamente no passado, pague seus respeitos bebendo pitu."
 
+/datum/barsign/b17
+	name = "B17"
+	icon = "b17"
+	desc = "Ficar bebado pode taok?."
 
 /datum/barsign/maltesefalcon
 	name = "Maltese Falcon"

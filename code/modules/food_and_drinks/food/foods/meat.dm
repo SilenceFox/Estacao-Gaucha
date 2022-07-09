@@ -167,6 +167,16 @@
 //	Cooked Meat		//
 //////////////////////
 
+/obj/item/reagent_containers/food/snacks/churras
+	name = "churras"
+	desc = "Um churras né tchê, barbaridade, agora sim, qui coisa boa bahhhhh."
+	icon_state = "churras"
+	trash = /obj/item/trash/plate
+	filling_color = "#7A3D11"
+	bitesize = 3
+	list_reagents = list("nutriment" = 5)
+	tastes = list("meat" = 1)
+
 /obj/item/reagent_containers/food/snacks/meatsteak
 	name = "meat steak"
 	desc = "A piece of hot spicy meat."

@@ -12,11 +12,31 @@
 	dirty_icon = "grill_dirty"
 	open_icon = "grill_open"
 
+/obj/machinery/kitchen_machine/grill/churrasqueira
+	name = "churrasqueira"
+	desc = "Pra fazer aquele churras tchê"
+	icon = 'icons/obj/cooking_machines.dmi'
+	icon_state = "churrasqueira_off"
+	cook_verbs = list("Torrando", "Churreando", "Assando")
+	recipe_type = RECIPE_GRILL
+	off_icon = "churrasqueira_off"
+	on_icon = "churrasqueira_on"
+	broken_icon = "churrasqueira_broke"
+	dirty_icon = "churrasqueira_dirty"
+	open_icon = "churrasqueira_open"
 // see code/modules/food/recipes_grill.dm for recipes
 
 /*******************
 *   Initialising
 ********************/
+/obj/machinery/kitchen_machine/grill/churrasqueira/New()
+	..()
+	component_parts = list()
+	component_parts += new /obj/item/circuitboard/grill(null)
+	component_parts += new /obj/item/stock_parts/micro_laser(null)
+	component_parts += new /obj/item/stock_parts/micro_laser(null)
+	component_parts += new /obj/item/stack/cable_coil(null, 5)
+	RefreshParts()
 
 /obj/machinery/kitchen_machine/grill/New()
 	..()

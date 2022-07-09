@@ -29,6 +29,14 @@
 	)
 	result = /obj/item/reagent_containers/food/snacks/friedegg
 
+
+/datum/recipe/grill/churras
+	reagents = list("ervamate" = 5)
+	items = list(
+		/obj/item/reagent_containers/food/snacks/meat
+	)
+	result = /obj/item/reagent_containers/food/snacks/churras
+
 /datum/recipe/grill/meatsteak
 	reagents = list("sodiumchloride" = 1, "blackpepper" = 1)
 	items = list(
